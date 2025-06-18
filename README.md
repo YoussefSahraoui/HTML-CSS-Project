@@ -28,7 +28,7 @@ All pages share a consistent look and feel using:
 
 ## 🚀 Live Demo
 
-> ✅ [Visit the live site](https://github.com/YoussefSahraoui/HTML-CSS-Project)  
+> ✅ [Visit the live site](https://youssefsahraoui.github.io/HTML-CSS-Project/)  
 
 ## 🛠️ How to Run
 
