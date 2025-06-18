@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join the Club - FC Barcelona Fan Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="FC Barcelona Logo" class="logo">
+    <h1>Join the FC Barcelona Fan Club</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="join.html">Join the Club</a>
+  </nav>
+
+  <main>
+    <div id="form-container">
+      <form action="thankyou.html" method="post">
+        <!-- Full Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email Address -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g., +34 600 123 456" required>
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="5" max="120" required>
+
+        <!-- Favorite Player -->
+        <label for="favorite-player">Favorite Player:</label>
+        <input type="text" id="favorite-player" name="favorite_player" placeholder="e.g., Pedri, Lewandowski, Gavi" required>
+
+        <!-- Membership Type -->
+        <label for="membership">Membership Type:</label>
+        <select id="membership" name="membership" required>
+          <option value="">-- Select --</option>
+          <option value="standard">Standard (Free)</option>
+          <option value="premium">Premium (Exclusive Benefits)</option>
+          <option value="vip">VIP (Meet & Greet Opportunities)</option>
+        </select>
+
+        <!-- Reason for Joining -->
+        <label for="reason">Why do you want to join?</label>
+        <textarea id="reason" name="reason" rows="4" required></textarea>
+
+        <!-- Agree to Terms -->
+        <label class="checkbox">
+          <input type="checkbox" id="terms" name="terms" required>
+          I agree to the <a href="#">terms and conditions</a>.
+        </label>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Join Now">
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <img src="logo.png" alt="FC Barcelona Logo Small" class="footer-logo">
+      <p>Made by <span class="author-name">Mohamed Youssef Sahraoui</span></p>
+    </div>
+  </footer>
+  
+
+
+</body>
+</html>
